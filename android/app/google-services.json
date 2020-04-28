@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "928620407880",
+    "firebase_url": "https://chatoff-64fa4.firebaseio.com",
+    "project_id": "chatoff-64fa4",
+    "storage_bucket": "chatoff-64fa4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928620407880:android:7700a9938344ca51113c7d",
+        "android_client_info": {
+          "package_name": "com.example.chatoff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928620407880-53t03kpg40ukql1pj3hdijsd9sed9cf2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatoff",
+            "certificate_hash": "508135dc97226ff90fa63e96ad44ea3eedef8e76"
+          }
+        },
+        {
+          "client_id": "928620407880-fnu6gu1is5nbmol1g80cm3e5ej89akfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ETh_HpM8f3wwQlu-S5znM7RyJuaT8yQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928620407880-fnu6gu1is5nbmol1g80cm3e5ej89akfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
