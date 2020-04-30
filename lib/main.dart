@@ -25,12 +25,14 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
+
       providers: [
         Provider<LoginStore>(
           create: (_) => LoginStore(),
         )
       ],
       child: const MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: SplashPage(),
       ),
     );

@@ -1,4 +1,6 @@
 import 'package:chatoff/model/chat_model.dart';
+import 'package:chatoff/screens/call_screen.dart';
+import 'package:chatoff/screens/chat_page.dart';
 import 'package:flutter/material.dart';
 
 class ChatScreen extends StatefulWidget {
@@ -14,11 +16,22 @@ class ChatScreenState extends State<ChatScreen> {
     return new ListView.builder(
       itemCount: dummyData.length,
       itemBuilder: (context, i) => new Column(
+
         children: <Widget>[
           new Divider(
             height: 10.0,
           ),
           new ListTile(
+            onTap: () {
+
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ChatScreenPage(dummyData[i].name,dummyData[i].avatarUrl)),
+              );
+            }
+
+
+            ,
             leading: new CircleAvatar(
               foregroundColor: Theme.of(context).primaryColor,
               backgroundColor: Colors.grey,

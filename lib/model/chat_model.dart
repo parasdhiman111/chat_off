@@ -44,4 +44,10 @@ List<ChatModel> dummyData = [
       time: "15:30",
       avatarUrl:
       "http://www.usanetwork.com/sites/usanetwork/files/styles/629x720/public/suits_cast_harvey.jpg?itok=fpTOeeBb"),
+  new ChatModel(
+      name: "Abhishek Verma",
+      message: "Hey Flutter, You are so cool !",
+      time: "15:30",
+      avatarUrl:
+      "http://www.usanetwork.com/sites/usanetwork/files/styles/629x720/public/suits_cast_harvey.jpg?itok=fpTOeeBb"),
 ];
